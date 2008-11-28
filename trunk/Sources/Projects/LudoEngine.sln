@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LudoEngine", "LudoEngine.vcproj", "{7FA83495-E102-4341-8A62-140720BB9455}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE14B04A-CB83-4ABB-9586-32B95E63CE6A} = {EE14B04A-CB83-4ABB-9586-32B95E63CE6A}
+		{E8FE039B-4E50-4EF7-AB1E-3776F751B9D2} = {E8FE039B-4E50-4EF7-AB1E-3776F751B9D2}
+		{497AF76B-3D02-4528-98DC-87747D313727} = {497AF76B-3D02-4528-98DC-87747D313727}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LudoCore", "LudoCore.vcproj", "{EE14B04A-CB83-4ABB-9586-32B95E63CE6A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LudoAI", "LudoAI.vcproj", "{497AF76B-3D02-4528-98DC-87747D313727}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE14B04A-CB83-4ABB-9586-32B95E63CE6A} = {EE14B04A-CB83-4ABB-9586-32B95E63CE6A}
+		{E8FE039B-4E50-4EF7-AB1E-3776F751B9D2} = {E8FE039B-4E50-4EF7-AB1E-3776F751B9D2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LudoRender", "LudoRender.vcproj", "{E8FE039B-4E50-4EF7-AB1E-3776F751B9D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE14B04A-CB83-4ABB-9586-32B95E63CE6A} = {EE14B04A-CB83-4ABB-9586-32B95E63CE6A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LudoSound", "LudoSound.vcproj", "{AFB383B8-05A2-4A36-8137-0C71EA4ED354}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LudoResources", "LudoResources.vcproj", "{D4D5094C-57D2-4DCF-8D27-5978CA3A9378}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FA83495-E102-4341-8A62-140720BB9455}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FA83495-E102-4341-8A62-140720BB9455}.Debug|Win32.Build.0 = Debug|Win32
+		{7FA83495-E102-4341-8A62-140720BB9455}.Release|Win32.ActiveCfg = Release|Win32
+		{7FA83495-E102-4341-8A62-140720BB9455}.Release|Win32.Build.0 = Release|Win32
+		{EE14B04A-CB83-4ABB-9586-32B95E63CE6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE14B04A-CB83-4ABB-9586-32B95E63CE6A}.Debug|Win32.Build.0 = Debug|Win32
+		{EE14B04A-CB83-4ABB-9586-32B95E63CE6A}.Release|Win32.ActiveCfg = Release|Win32
+		{EE14B04A-CB83-4ABB-9586-32B95E63CE6A}.Release|Win32.Build.0 = Release|Win32
+		{497AF76B-3D02-4528-98DC-87747D313727}.Debug|Win32.ActiveCfg = Debug|Win32
+		{497AF76B-3D02-4528-98DC-87747D313727}.Debug|Win32.Build.0 = Debug|Win32
+		{497AF76B-3D02-4528-98DC-87747D313727}.Release|Win32.ActiveCfg = Release|Win32
+		{497AF76B-3D02-4528-98DC-87747D313727}.Release|Win32.Build.0 = Release|Win32
+		{E8FE039B-4E50-4EF7-AB1E-3776F751B9D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8FE039B-4E50-4EF7-AB1E-3776F751B9D2}.Debug|Win32.Build.0 = Debug|Win32
+		{E8FE039B-4E50-4EF7-AB1E-3776F751B9D2}.Release|Win32.ActiveCfg = Release|Win32
+		{E8FE039B-4E50-4EF7-AB1E-3776F751B9D2}.Release|Win32.Build.0 = Release|Win32
+		{AFB383B8-05A2-4A36-8137-0C71EA4ED354}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFB383B8-05A2-4A36-8137-0C71EA4ED354}.Debug|Win32.Build.0 = Debug|Win32
+		{AFB383B8-05A2-4A36-8137-0C71EA4ED354}.Release|Win32.ActiveCfg = Release|Win32
+		{AFB383B8-05A2-4A36-8137-0C71EA4ED354}.Release|Win32.Build.0 = Release|Win32
+		{D4D5094C-57D2-4DCF-8D27-5978CA3A9378}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4D5094C-57D2-4DCF-8D27-5978CA3A9378}.Debug|Win32.Build.0 = Debug|Win32
+		{D4D5094C-57D2-4DCF-8D27-5978CA3A9378}.Release|Win32.ActiveCfg = Release|Win32
+		{D4D5094C-57D2-4DCF-8D27-5978CA3A9378}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
